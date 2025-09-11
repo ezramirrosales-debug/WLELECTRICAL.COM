@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WL Electrical — Reliable • Affordable • Skilled</title>
+  <meta name="description" content="WL Electrical — fast, reliable residential & light commercial electrical service in Central Alabama. Call, text, or request a quote." />
+  <!-- Tailwind via CDN (no build tools needed) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    html{scroll-behavior:smooth} body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    .container{max-width:1100px}
+  </style>
+</head>
+<body class="bg-neutral-50 text-neutral-900">
+  <!-- Top Bar -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-neutral-200">
+    <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-2 font-extrabold text-lg tracking-tight">
+        <span class="inline-flex h-8 w-8 rounded-xl bg-black text-yellow-400 items-center justify-center">⚡</span>
+        <span>WL Electrical</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#services" class="hover:text-black/80">Services</a>
+        <a href="#about" class="hover:text-black/80">About</a>
+        <a href="#faq" class="hover:text-black/80">FAQ</a>
+        <a href="#contact" class="hover:text-black/80">Contact</a>
+      </nav>
+      <div class="hidden md:flex items-center gap-2">
+        <a href="tel:+12056412595" class="px-3 py-2 rounded-xl bg-yellow-400 text-black text-sm font-semibold shadow hover:brightness-95">Call Now</a>
+      </div>
+      <button id="menuBtn" class="md:hidden inline-flex items-center justify-center h-10 w-10 rounded-xl border border-neutral-300">
+        <span class="sr-only">Open Menu</span>☰
+      </button>
+    </div>
+    <!-- Mobile Nav -->
+    <div id="mobileNav" class="hidden md:hidden border-t border-neutral-200 bg-white">
+      <div class="px-4 py-3 flex flex-col gap-3 text-sm">
+        <a href="#services" class="py-1">Services</a>
+        <a href="#about" class="py-1">About</a>
+        <a href="#faq" class="py-1">FAQ</a>
+        <a href="#contact" class="py-1">Contact</a>
+        <a href="tel:+12056412595" class="mt-2 px-3 py-2 rounded-xl bg-yellow-400 text-black text-sm font-semibold w-max">Call Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10 bg-gradient-to-br from-neutral-900 via-neutral-800 to-black"></div>
+    <div class="container mx-auto px-4 py-20 md:py-28 text-white">
+      <div class="max-w-2xl">
+        <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">Reliable • Affordable • Skilled Electrical Service</h1>
+        <p class="mt-4 text-lg md:text-xl text-white/90">Same-day diagnostics, panel upgrades, outlets & switches, lighting, EV chargers, and more in Central Alabama.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="tel:+12056412595" class="px-5 py-3 rounded-2xl bg-yellow-400 text-black font-semibold shadow">Call (205) 641-2595</a>
+          <a href="sms:+12056412595" class="px-5 py-3 rounded-2xl bg-white/10 border border-white/20 font-semibold">Text Us</a>
+          <a href="#contact" class="px-5 py-3 rounded-2xl bg-white/10 border border-white/20 font-semibold">Get a Quote</a>
+        </div>
+        <div class="mt-6 flex items-center gap-4 text-white/80 text-sm">
+          <div class="flex items-center gap-2"><span>✅</span> Licensed & Insured</div>
+          <div class="flex items-center gap-2"><span>⏱️</span> Fast Scheduling</div>
+          <div class="flex items-center gap-2"><span>💳</span> Card • Cash • Zelle</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16 md:py-20">
+    <div class="container mx-auto px-4">
+      <div class="flex items-end justify-between gap-6">
+        <h2 class="text-3xl md:text-4xl font-extrabold">Services</h2>
+        <a href="#contact" class="hidden md:inline-block text-sm font-semibold underline">Need something else? Ask here →</a>
+      </div>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl border border-neutral-200 bg-white shadow-sm">
+          <h3 class="font-bold text-lg">Diagnostics & Repair</h3>
+          <p class="mt-1 text-sm text-neutral-600">Circuit tripping, flickering lights, outlets not working, hot switches.</p>
+          <ul class="mt-3 text-sm list-disc list-inside text-neutral-700 space-y-1">
+            <li>Transparent $49 trip fee (20 mi)</li>
+            <li>Up-front pricing</li>
+          </ul>
+        </div>
+        <div class="p-6 rounded-2xl border border-neutral-200 bg-white shadow-sm">
+          <h3 class="font-bold text-lg">Installations</h3>
+          <p class="mt-1 text-sm text-neutral-600">Lighting, fans, dedicated circuits, TV mounting, smart switches.</p>
+          <ul class="mt-3 text-sm list-disc list-inside text-neutral-700 space-y-1">
+            <li>Clean, code-compliant work</li>
+            <li>Labor warranty</li>
+          </ul>
+        </div>
+        <div class="p-6 rounded-2xl border border-neutral-200 bg-white shadow-sm">
+          <h3 class="font-bold text-lg">Upgrades</h3>
+          <p class="mt-1 text-sm text-neutral-600">Panel/service upgrades, EV chargers, surge protection, generators.</p>
+          <ul class="mt-3 text-sm list-disc list-inside text-neutral-700 space-y-1">
+            <li>Permits handled</li>
+            <li>Utility coordination</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Service Area -->
+  <section id="about" class="py-16 md:py-20 bg-neutral-100 border-y border-neutral-200">
+    <div class="container mx_auto px-4 grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-extrabold">About WL Electrical</h2>
+        <p class="mt-3 text-neutral-700 leading-relaxed">We’re a professional crew based in Center Point, Alabama—serving the Birmingham metro and surrounding areas. You’ll get clear communication, honest pricing, and quality workmanship. Most small jobs can be scheduled within 24–48 hours.</p>
+        <dl class="mt-6 grid grid-cols-2 gap-4 text-sm">
+          <div>
+            <dt class="font-semibold">Hours</dt>
+            <dd class="text-neutral-700">Mon–Sat • 7am–6pm</dd>
+          </div>
+          <div>
+            <dt class="font-semibold">License/Insurance</dt>
+            <dd class="text-neutral-700">Proof on request</dd>
+          </div>
+          <div>
+            <dt class="font-semibold">Trip Fee</dt>
+            <dd class="text-neutral-700">Starts at $49 within 20 miles</dd>
+          </div>
+          <div>
+            <dt class="font-semibold">Payments</dt>
+            <dd class="text-neutral-700">Card • Cash • Zelle</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="rounded-2xl overflow-hidden shadow border border-neutral-200 bg-white">
+        <iframe
+          title="Service Area Map"
+          width="100%" height="300" style="border:0" loading="lazy" allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed/v1/place?q=Center%20Point%2C%20AL&key=AIzaSyDUMMY-PLACE-YOUR-KEY">
+        </iframe>
+        <div class="px-4 py-3 text-xs text-neutral-600 border-t">Optional: replace the map with your own Google Maps Embed API key, or remove the iframe entirely.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-16 md:py-20">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Happy Customers</h2>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <figure class="p-6 rounded-2xl border border-neutral-200 bg-white shadow-sm">
+          <blockquote class="text-neutral-700">“Showed up on time, fixed our tripping breaker, super clean work.”</blockquote>
+          <figcaption class="mt-3 text-sm text-neutral-600">— Maria V.</figcaption>
+        </figure>
+        <figure class="p-6 rounded-2xl border border-neutral-200 bg-white shadow-sm">
+          <blockquote class="text-neutral-700">“Installed new lighting and TV mount in one visit. Great price.”</blockquote>
+          <figcaption class="mt-3 text-sm text-neutral-600">— James R.</figcaption>
+        </figure>
+        <figure class="p-6 rounded-2xl border border-neutral-200 bg-white shadow-sm">
+          <blockquote class="text-neutral-700">“Fast, respectful, and explained everything clearly.”</blockquote>
+          <figcaption class="mt-3 text-sm text-neutral-600">— Tasha P.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-16 md:py-20 bg-neutral-100 border-y border-neutral-200">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-extrabold">FAQ</h2>
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <details class="p-5 rounded-2xl border border-neutral-200 bg-white">
+          <summary class="font-semibold cursor-pointer">How much is the trip/diagnostic fee?</summary>
+          <p class="mt-2 text-sm text-neutral-700">Within ~20 miles of Center Point: $49 trip fee. Diagnostic time is credited toward the repair when you approve the work.</p>
+        </details>
+        <details class="p-5 rounded-2xl border border-neutral-200 bg-white">
+          <summary class="font-semibold cursor-pointer">Do you offer same-day service?</summary>
+          <p class="mt-2 text-sm text-neutral-700">Often yes. Call or text and we’ll do our best to fit you in.</p>
+        </details>
+        <details class="p-5 rounded-2xl border border-neutral-200 bg-white">
+          <summary class="font-semibold cursor-pointer">What areas do you cover?</summary>
+          <p class="mt-2 text-sm text-neutral-700">Birmingham metro and nearby cities; long-distance visits available with a travel fee.</p>
+        </details>
+        <details class="p-5 rounded-2xl border border-neutral-200 bg-white">
+          <summary class="font-semibold cursor-pointer">Payment methods?</summary>
+          <p class="mt-2 text-sm text-neutral-700">Card, cash, Zelle. Invoices provided for all jobs.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 md:py-20">
+    <div class="container mx-auto px-4 grid md:grid-cols-2 gap-10">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-extrabold">Get a Fast Quote</h2>
+        <p class="mt-2 text-neutral-700">Tell us what you need, add a photo if you can, and we’ll reply with options & pricing.</p>
+        <ul class="mt-6 text-sm text-neutral-700 space-y-2">
+          <li>📞 <a class="underline" href="tel:+12056412595">(205) 641-2595</a></li>
+          <li>✉️ <a class="underline" href="mailto:info@wlelectrical.com">info@wlelectrical.com</a></li>
+          <li>💬 <a class="underline" href="sms:+12056412595">Text us photos/videos</a></li>
+        </ul>
+      </div>
+      <form class="p-6 rounded-2xl border border-neutral-200 bg-white shadow-sm" method="POST" action="https://formspree.io/f/your_form_id">
+        <div class="grid md:grid-cols-2 gap-4">
+          <div>
+            <label class="text-sm font-medium">Name</label>
+            <input name="name" required class="mt-1 w-full rounded-xl border border-neutral-300 px-3 py-2" placeholder="Your name" />
+          </div>
+          <div>
+            <label class="text-sm font-medium">Phone</label>
+            <input name="phone" class="mt-1 w-full rounded-xl border border-neutral-300 px-3 py-2" placeholder="(205) 641-2595" />
+          </div>
+          <div class="md:col-span-2">
+            <label class="text-sm font-medium">Email</label>
+            <input type="email" name="email" class="mt-1 w-full rounded-xl border border-neutral-300 px-3 py-2" placeholder="you@email.com" />
+          </div>
+          <div class="md:col-span-2">
+            <label class="text-sm font-medium">What do you need?</label>
+            <textarea name="message" rows="4" required class="mt-1 w-full rounded-xl border border-neutral-300 px-3 py-2" placeholder="Tell us about the issue or project…"></textarea>
+          </div>
+        </div>
+        <button class="mt-4 w-full px-4 py-3 rounded-2xl bg-yellow-400 text-black font-semibold">Send</button>
+        <p class="mt-2 text-xs text-neutral-500">Powered by Formspree free tier — swap in your endpoint after creating a free account.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="py-10 border-t border-neutral-200 bg-white">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p class="text-sm text-neutral-600">© <span id="year"></span> WL Electrical. All rights reserved.</p>
+      <div class="text-sm text-neutral-600">Center Point, AL • Birmingham Metro</div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    document.getElementById('menuBtn').addEventListener('click', ()=>{
+      const m = document.getElementById('mobileNav');
+      m.classList.toggle('hidden');
+    })
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
